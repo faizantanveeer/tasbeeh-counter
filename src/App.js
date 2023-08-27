@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  var [counter, setCounter] = useState(96);
+  var [counter, setCounter] = useState(0);
   var [totalCount, setTotalCount] = useState(0);
   var [set, setSet] = useState(0);
 
