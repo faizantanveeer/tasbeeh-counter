@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tasbeeh-counter/static/css/main.8a1631c2.css",
-    "main.js": "/tasbeeh-counter/static/js/main.5cb38f1b.js",
+    "main.js": "/tasbeeh-counter/static/js/main.1f9b0abc.js",
     "static/js/787.5863b875.chunk.js": "/tasbeeh-counter/static/js/787.5863b875.chunk.js",
     "static/media/faruk-kaymak-CNVvDjVDiVI-unsplash.jpg": "/tasbeeh-counter/static/media/faruk-kaymak-CNVvDjVDiVI-unsplash.11f03080d8ba717139b6.jpg",
     "index.html": "/tasbeeh-counter/index.html",
     "main.8a1631c2.css.map": "/tasbeeh-counter/static/css/main.8a1631c2.css.map",
-    "main.5cb38f1b.js.map": "/tasbeeh-counter/static/js/main.5cb38f1b.js.map",
+    "main.1f9b0abc.js.map": "/tasbeeh-counter/static/js/main.1f9b0abc.js.map",
     "787.5863b875.chunk.js.map": "/tasbeeh-counter/static/js/787.5863b875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a1631c2.css",
-    "static/js/main.5cb38f1b.js"
+    "static/js/main.1f9b0abc.js"
   ]
 }
