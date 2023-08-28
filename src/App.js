@@ -35,8 +35,8 @@ function App() {
       <div className="bg-image"></div>
       <div className="container">
         <div className="wrapper">
-          <h1 className="text pb-2">TASBEEH COUNTER</h1>
-          <div className="container m-3">
+          <h1 className="text">📿 TASBEEH COUNTER ⏱</h1>
+          <div className="container">
             <h1 className="count">{counter}</h1>
             <p className="limit">/ {limit}</p>
           </div>

@@ -1,9 +1,9 @@
-.body{
+.body {
   height: 100vh;
   width: 100%;
 }
 
-.bg-image{
+.bg-image {
   background-image: url("../images/faruk-kaymak-CNVvDjVDiVI-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11,8 +11,8 @@
   height: 100%;
 }
 
-.wrapper{
-  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -22,78 +22,381 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 60%;
-  padding: 40px;
+  height: 80vh;
+  padding-top: 30px;
   text-align: center;
   justify-content: center;
   border-radius: 20px;
 }
 
-.text{
+.text {
   font-size: 3rem;
-  border-bottom: 3px solid white;
-
 }
 
-.count{
+.count {
   font-size: 5rem;
   display: inline;
 }
 
-.limit{
+.limit {
   font-size: 1.4rem;
   display: inline;
 }
 
-.click-btn{
+.click-btn {
   outline: none;
   border: none;
   width: 10rem;
   padding: 0.5rem 1.2rem;
   background-color: rgb(20, 167, 0);
-  color:white;
+  color: white;
   font-size: 1.3rem;
   border-radius: 10px;
-  margin:0.5rem 1.5rem;
-  transition: .1s .1s ease;
+  margin: 0.5rem 1.5rem;
+  transition: 0.1s 0.1s ease;
 }
 
-.click-btn:hover{
+.click-btn:hover {
   background-color: rgb(50, 165, 6);
 }
 
-.reset-btn{
+.reset-btn {
   outline: none;
   border: none;
   width: 10rem;
   padding: 0.5rem 1.2rem;
   background-color: rgb(255, 28, 28);
-  color:white;
+  color: white;
   font-size: 1.3rem;
   border-radius: 10px;
-  margin:0.5rem 1.5rem;
-  transition: .1s .1s ease;
+  margin: 0.5rem 1.5rem;
+  transition: 0.1s 0.1s ease;
 }
 
-.total{
-  color:white;
+.total {
+  color: white;
   font-size: 1.3rem;
   margin-top: 0.5rem;
   font-weight: normal;
 }
 
-.sets{
-  color:white;
+.sets {
+  color: white;
   font-size: 1.3rem;
   margin-top: 0.3rem;
   font-weight: normal;
 }
 
-.totalNumber{
+.totalNumber {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.totalSets{
+.totalSets {
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media (max-width: 320px) {
+  .text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 0.4rem;
+  }
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 60vh;
+    padding: 0;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .count {
+    font-size: 3rem;
+    display: inline;
+  }
+
+  .limit {
+    font-size: 1rem;
+    display: inline;
+  }
+
+  .click-btn {
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    width: 7rem;
+    margin: 0 3rem;
+    margin-top: 1.3rem;
+    background-color: rgb(20, 167, 0);
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .click-btn:hover {
+    background-color: rgb(50, 165, 6);
+  }
+
+  .reset-btn {
+    outline: none;
+    border: none;
+    width: 5rem;
+    padding: 0;
+    margin-top: 1.3rem;
+    background-color: rgb(255, 28, 28);
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .total {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sets {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .totalNumber {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .totalSets {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+}
+
+
+
+@media (320px < width < 650px) {
+  .text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:0.4rem;
+    padding: 0 0.4rem;
+  }
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 90vh;
+    padding: 0;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .count {
+    font-size: 6rem;
+    display: inline;
+  }
+
+  .limit {
+    font-size: 1.5rem;
+    display: inline;
+  }
+
+  .click-btn {
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    width: 9rem;   
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    background-color: rgb(20, 167, 0);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .click-btn:hover {
+    background-color: rgb(50, 165, 6);
+  }
+
+  .reset-btn {
+    outline: none;
+    border: none;
+    width: 5rem;
+    padding: 0;
+    margin-top: 1rem;
+    background-color: rgb(255, 28, 28);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .total {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sets {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .totalNumber {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .totalSets {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+}
+
+
+@media (width >= 650px) {
+  .text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top:0.4rem;
+    padding: 0 0.4rem;
+  }
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 90vh;
+    padding: 0;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .count {
+    font-size: 6rem;
+    display: inline;
+  }
+
+  .limit {
+    font-size: 1.5rem;
+    display: inline;
+  }
+
+  .click-btn {
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    width: 9rem;   
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    background-color: rgb(20, 167, 0);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .click-btn:hover {
+    background-color: rgb(50, 165, 6);
+  }
+
+  .reset-btn {
+    outline: none;
+    border: none;
+    width: 5rem;
+    padding: 0;
+    margin-top: 1rem;
+    background-color: rgb(255, 28, 28);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 0.1s 0.1s ease;
+  }
+
+  .total {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sets {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .totalNumber {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .totalSets {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
 }
